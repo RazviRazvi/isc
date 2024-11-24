@@ -1,0 +1,15 @@
+# Encrypted
+
+It's all part of the dance, where secret messages hide, XORs twirl, and
+randomness is the masquerade ball.
+
+Try your own luck at:
+`isc2024.1337.cx:11001`.
+
+Hints:
+
+  * you either have a very powerful PC, or write optimized C / Rust / whatever
+    (even Haskell is faster! ;) )
+  * if it takes more than 15 mins, you're doing smth wrong...
+  * and PLEASE do NOT hammer (DoS) the server... it is sufficient to only issue
+    the request ONCE!

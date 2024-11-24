@@ -1,0 +1,26 @@
+# Binary Database
+
+Dear sir, I present to you, my new database management software, very high
+performant sir, is written in C!
+
+I send to you demo server to try, please test it locally but also buy cloud
+service at `isc2024.1337.cx:10169`
+
+If you find any bugs, please and I will fix it sir!
+
+
+### Hints:
+
+  - please don't complain about the source code, Ghidra / IDA Pro / BinNinja...
+  - there are two flags, one is easy, the other one is more fun ;)
+  - the server has lots of mistakes, but only a few are remotely exploitable;
+  - don't forget to read everything from the socket (until it closes) in order to
+  	catch everything printed after the exploit!
+  - for bonus: libc is still PIC, so ASLR will do its job proper...
+  - note: generic ROP gadgets are NOT available :(( you can still find some
+    useful ones, though;
+  - after succeeding locally, make sure to run your exploit on the server!
+  - you should use some tooling on this one (e.g., python + pwntools);
+  - you can also use pwntools' `remote()` for opening a socket pipe in Python!
+  - for the bonus flag: `cp -f init-test.db init.db` to experiment with its
+  	memory layout!
